@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    max-height: 10vh;
+    min-width: 100vw;
+    min-height: 10vh;
+}
+
+.logo{
+    width: 25vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+}
+
+.imagemLogo{
+    width: 23vw;
+    height: 8vh;
+}
+
+.titulo{
+    width: 30vw;
+    height: 8vh;
+    max-width: 30vw;
+    max-height: 8vh;
+    min-width: 30vw;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    width: 100vw;
+    min-height: 90vh;
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.selecaoTurma{
+    width: 60vw;
+    height: 10vh;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nomeCurso{
+    width: 68%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.siglaTurma{
+
+    width: 12%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.semestreAno{
+    width: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.linhaFiltro{
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    border-bottom: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filtroCores{
+    width: 60%;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+}
+
+#verde{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: lawngreen;
+}
+
+#vermelho{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+#amarelo{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+#cinza{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: gray;
+}
+
+.selectModo{
+    margin-left: 50px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+
+.selectApresentacao{
+    width: 200px;
+    height: 30px;
+    font-size: 1.5em;
+}
+
+.alunos{
+    width: 100vw;
+    min-height: 30vh;
+    height: auto;
+    overflow: hidden;
+}
+
+.linhaAlunos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100vw;
+    height: 30vh;
+    min-height: 30vh;
+    height: auto;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+.cardAluno{
+    width: 16.5vw;
+    height: 27vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.fotoAluno{
+    width: 10vw;
+    height: 20vh;
+    border: 5px solid lawngreen;
+}
+
+.nomeAluno{
+    width: 12vw;
+    height: 15vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    margin-top: 10px;
+}
