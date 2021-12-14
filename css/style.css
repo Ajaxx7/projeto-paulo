@@ -211,3 +211,14 @@ label{
     font-size: 1em;
     margin-top: 10px;
 }
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    flex-direction: column;
+}
